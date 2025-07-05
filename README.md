@@ -1,6 +1,7 @@
 # 🎟️ Concert Ticket Helper
 
 A simple Python application to help you **secure concert tickets faster** by opening the ticket URL automatically exactly when tickets go on sale.
+This is my first project using Python. It's certainly not perfect and there's no UI elements. This code is simply to help remind you of when concert tickets go on sale!
 
 ---
 
@@ -10,13 +11,13 @@ A simple Python application to help you **secure concert tickets faster** by ope
 - Supports convenient sale time format like `2025/06/06 (FRI) 11:00`.
 - Simple and clean GUI using Tkinter.
 - Alerts you when the ticket page opens.
-- Lightweight, easy to use, and cross-platform.
+- Lightweight and easy to use.
 
 ---
 
 ## 📅 Sale Time Format
 
-Enter the sale time in the format:
+Enter the sale time in the format: YYYY/MM/DD (DAY) 00:00
 
 
 Example:  
@@ -35,7 +36,7 @@ The `(DAY)` part is for readability and will be ignored by the app when scheduli
 3. Enter the sale start time in the specified format.
 4. Click **Schedule Ticket Opening**.
 5. The app will wait and then open your browser at the exact time.
-6. Secure your ticket quickly!
+6. Godspeed lol (people are faster than a second omg). Try and secure your ticket quickly!
 
 ---
 
@@ -63,21 +64,12 @@ The `(DAY)` part is for readability and will be ignored by the app when scheduli
 - Opens your default web browser when the sale time is reached.
 - Uses pop-up message boxes for status updates and alerts.
 
----
-
-## 📂 File Structure
 
 ---
 
 ## 🤝 Contributions
 
 Feel free to fork this repository, open issues, or submit pull requests with improvements!
-
----
-
-## 📫 Contact
-
-If you want to connect or have questions, feel free to reach out!
 
 ---
 
